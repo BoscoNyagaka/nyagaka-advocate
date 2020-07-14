@@ -371,11 +371,11 @@ hr {
   background: $theme-color;
   height: 50px;
   width: 50px;
-  right: 31px;
-  bottom: 40px;
-  @media #{$xs} {
-    right: 16px;
-  }
+  right: 95px;
+  bottom: 25px;
+  // @media #{$xs} {
+  //   right: 16px;
+  // }
   color: #fff;
   font-size: 20px;
   text-align: center;
@@ -715,16 +715,16 @@ hr {
   }
   @media #{$md} {
     padding-top: 100px;
-    padding-bottom: 70px;
+    // padding-bottom: 70px;
   }
   @media #{$sm} {
     padding-top: 60px;
     padding-bottom: 28px;
   }
-  @media #{$xs} {
-    padding-top: 60px;
-    padding-bottom: 28px;
-  }
+  // @media #{$xs} {
+  //   padding-top: 60px;
+  //   padding-bottom: 28px;
+  // }
 }
 // team
 .section2-padding30 {
